@@ -1,0 +1,22 @@
+55b3fdaf5000-55b3fdaf6000 r--p 00000000 08:01 22676106                   /home/notepad/notepad
+55b3fdaf6000-55b3fdaf8000 r-xp 00001000 08:01 22676106                   /home/notepad/notepad
+55b3fdaf8000-55b3fdaf9000 r--p 00003000 08:01 22676106                   /home/notepad/notepad
+55b3fdaf9000-55b3fdafa000 r--p 00003000 08:01 22676106                   /home/notepad/notepad
+55b3fdafa000-55b3fdafb000 rw-p 00004000 08:01 22676106                   /home/notepad/notepad
+55b3ff90f000-55b3ff930000 rw-p 00000000 00:00 0                          [heap]
+7fd787f49000-7fd787f4c000 rw-p 00000000 00:00 0
+7fd787f4c000-7fd787f74000 r--p 00000000 08:01 22554614                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd787f74000-7fd788109000 r-xp 00028000 08:01 22554614                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd788109000-7fd788161000 r--p 001bd000 08:01 22554614                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd788161000-7fd788165000 r--p 00214000 08:01 22554614                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd788165000-7fd788167000 rw-p 00218000 08:01 22554614                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fd788167000-7fd788174000 rw-p 00000000 00:00 0
+7fd788176000-7fd788178000 rw-p 00000000 00:00 0
+7fd788178000-7fd78817a000 r--p 00000000 08:01 22554596                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fd78817a000-7fd7881a4000 r-xp 00002000 08:01 22554596                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fd7881a4000-7fd7881af000 r--p 0002c000 08:01 22554596                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fd7881b0000-7fd7881b2000 r--p 00037000 08:01 22554596                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fd7881b2000-7fd7881b4000 rw-p 00039000 08:01 22554596                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffcf893f000-7ffcf8960000 rw-p 00000000 00:00 0                          [stack]
+7ffcf897e000-7ffcf8982000 r--p 00000000 00:00 0                          [vvar]
+7ffcf8982000-7ffcf8984000 r-xp 00000000 00:00 0                          [vdso]
