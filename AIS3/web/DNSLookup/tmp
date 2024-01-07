@@ -1,0 +1,4175 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == " ") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == " ") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "!") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "!") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == """) print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == """) print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "#") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "#") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "$") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "$") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "%") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "%") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == " is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "'") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "'") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "(") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "(") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == ")") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == ")") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "*") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            HACKER!!!                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == " ") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == " ") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == ",") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == ",") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "-") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "-") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == ".") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == ".") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "/") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "/") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "0") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "0") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "1") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "1") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "2") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "2") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "3") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "3") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "4") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "4") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "5") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "5") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "6") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "6") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "7") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "7") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "8") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "8") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "9") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "9") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == ":") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == ":") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == ";") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            HACKER!!!                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "<") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            HACKER!!!                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "=") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "=") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == ">") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            HACKER!!!                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "?") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            HACKER!!!                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "@") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "@") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "A") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "A") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "B") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "B") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "C") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "C") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "D") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "D") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "E") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "E") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "F") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "F") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "G") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "G") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "H") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "H") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "I") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "I") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "J") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "J") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "K") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "K") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "L") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "L") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "M") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "M") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "N") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "N") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "O") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "O") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "P") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "P") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "Q") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "Q") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "R") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "R") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "S") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "S") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "T") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "T") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "U") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "U") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "V") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "V") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "W") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "W") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "X") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "X") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "Y") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "Y") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "Z") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "Z") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "[") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "[") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "\") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "\") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "]") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "]") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "^") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "^") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "_") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "_") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "`") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "`") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "a") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "a") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "b") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "b") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "c") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "c") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "d") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "d") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "e") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "e") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "f") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "f") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "g") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "g") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "h") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "h") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "i") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "i") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "j") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "j") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "k") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "k") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "l") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "l") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "m") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "m") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "n") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "n") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "o") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "o") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "p") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "p") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "q") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "q") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "r") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "r") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "s") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "s") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "t") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "t") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "u") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "u") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "v") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "v") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "w") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "w") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "x") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "x") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "y") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "y") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "z") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "z") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "{") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "{") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "|") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            HACKER!!!                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "}") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "}") print "google.com" }' $(find / -maxdepth 1 -type f)) is valid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Lookup Tool | Final</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <div class="box">
+                    <h1 class="title">DNS Lookup Tool 🔍 | Final Edition</h1>
+                    <form method="POST">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="name" placeholder="example.com" id="hostname" value="$(awk '{ if (substr($0,33,1) == "~") print "google.com" }' $(find / -maxdepth 1 -type f))">
+                            </div>
+                        </div>
+                        <button class="button is-block is-info is-fullwidth">
+                            Lookup!
+                        </button>
+                    </form>
+                    <br>
+                                            <section class="has-text-left">
+                            <p>Lookup result:</p>
+                            <b>
+                            Host $(awk '{ if (substr($0,33,1) == "~") print "google.com" }' $(find / -maxdepth 1 -type f)) is invalid!
+                            </b>
+                        </section>
+                                        <hr>
+                    <a href="/?source">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

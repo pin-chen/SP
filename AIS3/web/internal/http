@@ -1,0 +1,4 @@
+GET /?redir=http://10.105.0.21:11499/flag HTTP/1.1
+Host: 10.105.0.21:11499
+User-Agent: curl/7.81.0
+Accept: */*

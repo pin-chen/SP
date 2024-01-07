@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EOF Qual 2024</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/files/9029718e84dba05ee722fb862e6246f8/fav-ais3.png" type="image/x-icon">
+
+  
+    <link rel="stylesheet" href="/themes/core-beta/static/assets/main.0aaf0d88.css">
+  
+
+  
+
+  <script type="text/javascript">
+      window.init = {
+          'urlRoot': "",
+          'csrfNonce': "925a6f9027d8748ecd8ca20998d9f11556dc4be72ff6aeef541eb65a55eb7fe5",
+          'userMode': "users",
+          'userId': 0,
+          'userName': null,
+          'userEmail': null,
+          'teamId': null, 
+          'teamName': null,
+          'start': 1704416400,
+          'end': 1704618000,
+          'themeSettings': {"challenge_category_order": "", "challenge_order": "function compare(a, b) {\r\n  const customOrder = [25, 3, 4, 5, 6, 7, 24, 28, 26, 27, 19, 11, 13, 12, 14, 10, 23, 15, 18, 22, 17];\r\n  const indexA = customOrder.indexOf(a.id);\r\n  const indexB = customOrder.indexOf(b.id);\r\n\r\n  if (indexA \u003c indexB) {\r\n    return -1;\r\n  }\r\n  if (indexA \u003e indexB) {\r\n    return 1;\r\n  }\r\n  return 0;\r\n}", "challenge_window_size": "norm", "use_builtin_code_highlighter": true},
+          'eventSounds': [
+            "/themes/core/static/sounds/notification.webm",
+            "/themes/core/static/sounds/notification.mp3",
+          ],
+      }
+  </script>
+
+  <style id="theme-color">
+:root {--theme-color: #305cb0;}
+.navbar{background-color: var(--theme-color) !important;}
+.jumbotron{background-color: var(--theme-color) !important;}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a href="/" class="navbar-brand">
+      
+        EOF Qual 2024
+      
+    </a>
+
+    <button
+        class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#base-navbars"
+        aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="base-navbars">
+      <ul class="navbar-nav me-auto">
+        
+
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/users">
+              Users
+            </a>
+          </li>
+
+          
+        
+
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/scoreboard">
+              Scoreboard
+            </a>
+          </li>
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/challenges">
+            Challenges
+          </a>
+        </li>
+      </ul>
+
+      <hr class="d-sm-flex d-md-flex d-lg-none">
+
+      <ul class="navbar-nav ms-md-auto d-block d-sm-flex d-md-flex">
+        
+
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="/login">
+              <span class="d-block" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Login">
+                <i class="fas fa-sign-in-alt d-none d-md-block d-lg-none"></i>
+              </span>
+              <span class="d-sm-block d-md-none d-lg-block">
+                <i class="fas fa-sign-in-alt pe-1"></i>
+                Login
+              </span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main role="main">
+  
+  <div class="jumbotron">
+    <div class="container">
+      <h1>
+        Login
+      </h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col offset-md-2 col-lg-6 offset-lg-3">
+        <div>
+  
+
+  
+</div>
+
+        
+
+        
+          <form method="post" accept-charset="utf-8" autocomplete="off">
+            <div class="mb-3">
+              <b><label class="form-label" for="name">User Name or Email</label></b>
+              <input autofocus class="form-control" id="name" name="name" required type="text" value="">
+            </div>
+
+            <div class="mb-3">
+              <b><label class="form-label" for="password">Password</label></b>
+              <input class="form-control" id="password" name="password" required type="password" value="">
+            </div>
+
+            <div class="row pt-3">
+              <div class="col-6 col-md-8">
+                <a class="align-middle" href="/reset_password">
+                  Forgot your password?
+                </a>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <input class="btn btn-block btn-primary w-100" id="_submit" name="_submit" type="submit" value="Submit">
+              </div>
+            </div>
+
+            <input id="nonce" name="nonce" type="hidden" value="925a6f9027d8748ecd8ca20998d9f11556dc4be72ff6aeef541eb65a55eb7fe5">
+          </form>
+        
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="container text-center">
+    <a href="https://ctfd.io" class="text-secondary">
+      <small class="text-muted">
+        Powered by CTFd
+      </small>
+    </a>
+  </div>
+</footer>
+
+<div x-data>
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div x-ref="toast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <strong class="me-auto" x-text="$store.toast.title"></strong>
+        <small>just now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body" x-html="$store.toast.html">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div x-data>
+  <div class="modal" x-ref="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" x-text="$store.modal.title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p x-html="$store.modal.html"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script defer type="module" src="/themes/core-beta/static/assets/index.69d1de7e.js"></script>
+
+
+
+
+
+</body>
+</html>
